@@ -1,0 +1,23 @@
+<div class="content">
+    <div class="image">
+        <img src="{{product.image}}" alt="">
+    </div>
+    <div class="info">
+        <h1>Informacion</h1>
+        <p>
+            {{product.description}}
+        </p>
+        <h3>$ {{product.value}}</h3>
+        <select name="talla" id="" aria-placeholder="Talla">
+            <option disabled selected>Talla:</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+          
+          <button class="bc" routerLink="/trolley">
+            <mat-icon>add_shopping_cart</mat-icon> Agregar al carrito
+          </button>
+    </div>
+</div>

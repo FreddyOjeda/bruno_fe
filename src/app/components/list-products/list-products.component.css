@@ -1,0 +1,50 @@
+html,body{
+    display: inline-flex;
+}
+.contenido{
+    float: left;
+    margin: 5px;
+}
+
+.toolbar{
+    float: right;
+}
+.search{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    transition-duration: 500ms;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    overflow: hidden;
+    background-image: url(../../../assets/icons/buscar.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+
+.search:hover{
+    border:  1px solid #000000;
+}
+
+.search:focus{
+    width: 200px;
+    cursor: text;
+    padding-left: 40px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #000000;
+    background: url(../../../assets/icons/buscar.png) no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+    border-radius: 30%;
+}
+

@@ -1,0 +1,25 @@
+<div class="flip">
+  <div class="content">
+      <div class="front">
+          <img src="{{product.image}}" alt="">
+          <p>$ {{product.value}} COP</p>
+      </div>
+      <div class="back">
+          <h4>{{product.name}}</h4>
+          <p>{{product.description}}</p>
+          <select name="talla" id="" aria-placeholder="Talla">
+            <option disabled selected>Talla:</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+          <button class="bc">
+            <mat-icon>add_shopping_cart</mat-icon>
+          </button>
+          <button class="bd" [routerLink]="['/product-detail', product.id]">
+            Detalles
+          </button>
+      </div>
+  </div>
+</div>

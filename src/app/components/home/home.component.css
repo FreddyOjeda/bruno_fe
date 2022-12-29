@@ -1,0 +1,26 @@
+.main{
+    
+    min-height: 100%;
+}
+.top{
+    height: 20%;
+    align-items: center;
+    /*background: linear-gradient(#000000,#2A272A);*/
+}
+mat-tab:hover{
+    background-color: aqua;
+}
+
+.btn-ft{
+    width: 50px;
+    height: 50px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    border-color: aliceblue;
+    transition: transform .2s;
+}
+.btn-ft:hover{
+    transform: scale(1.1); 
+}
+a{
+    color: white;
+}
